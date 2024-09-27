@@ -1,0 +1,40 @@
+:root {
+    --main-red: #df2e38;
+    --mid-green: #ddf7e3;
+    --light-green: #c7e8ca;
+    --dark-green: #5d9c59;
+}
+
+.logo-img {
+    width: 2em;
+    height: 2em;
+}
+
+#name {
+    margin-right: auto;
+    margin-left: -40px;
+    padding: 2px;
+    font-size: 1.5em;
+    font-family: "Sedan", serif;
+    font-style: italic;
+    color: red;
+    text-shadow: 0px 0px 2px rgb(17, 15, 15);
+}
+
+.nav-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.nav-item {
+    margin: 0 1em;
+
+}
