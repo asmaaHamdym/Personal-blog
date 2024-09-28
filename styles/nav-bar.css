@@ -12,7 +12,7 @@
 
 #name {
     margin-right: auto;
-    margin-left: -40px;
+    /* margin-left: -40px; */
     padding: 2px;
     font-size: 1.5em;
     font-family: "Sedan", serif;
