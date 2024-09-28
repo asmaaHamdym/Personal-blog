@@ -3,6 +3,10 @@
     height: 3em;
 }
 
+header {
+    margin: 50px;
+}
+
 #name {
     margin-right: auto;
     /* margin-left: -40px; */
