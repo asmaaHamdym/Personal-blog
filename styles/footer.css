@@ -25,7 +25,7 @@ footer {
 .footer-social {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px;
 }
 
@@ -58,11 +58,12 @@ form {
 }
 
 .footer-input {
-    margin: 0.5em;
-    width: 100%;
+    margin: 0.5em auto;
+    /* width: 100%; */
     border: 2px solid #f6f6f7;
     border-radius: 0.4em;
     padding: 0.7em 1em;
+    display: block;
 }
 
 #btn-submit {
@@ -71,7 +72,6 @@ form {
     color: #f6f6f7;
     font-size: 1em;
     font-weight: bold;
-    height: 30px;
 
 
 }
