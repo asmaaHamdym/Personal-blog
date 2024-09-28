@@ -1,5 +1,7 @@
 @import url("./nav-bar.css");
+@import url("./hero.css");
 @import url('./footer.css');
+
 
 :root {
     --main-red: #df2e38;
@@ -9,7 +11,7 @@
 }
 
 body {
-
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Helvetica', sans-serif, serif;
@@ -17,14 +19,12 @@ body {
     width: 100vw;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    text-shadow: 0px 0px 2px rgb(17, 15, 15);
-}
+
 
 ul {
     list-style: none;
 }
 
-main {}
+main {
+    margin: 50px;
+}
