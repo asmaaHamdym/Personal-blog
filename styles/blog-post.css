@@ -1,0 +1,36 @@
+@import url('footer.css');
+@import url('nav-bar.css');
+@import url('hero.css');
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    margin: 0 15em;
+    color: #97989F;
+
+    h1 {
+        color: black;
+        font-size: 3em;
+    }
+
+    h3 {
+        color: black;
+        font-size: 2.5rem;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 2em;
+        margin: 2em 0;
+        max-height: 600px;
+    }
+
+    article {
+        margin: 2em 0;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}

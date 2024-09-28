@@ -1,37 +1,41 @@
-.logo-img {
-    width: 3em;
-    height: 3em;
-}
-
 header {
-    margin: 50px;
+    margin: 0 50px;
+    font-size: 1rem;
 }
 
-#name {
-    margin-right: auto;
-    /* margin-left: -40px; */
-    padding: 2px;
-    font-size: 1.5em;
-    font-family: "Sedan", serif;
-    font-style: italic;
-    color: red;
-    text-shadow: 0px 0px 2px rgb(17, 15, 15);
+li>a {
+    color: #97989F;
+
 }
+
+
+.nav-item-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+
+}
+
 
 .nav-container {
-    position: sticky;
+    /* position: fixed; */
     top: 0;
     display: flex;
+    gap: 3rem;
     flex-wrap: wrap;
-    gap: 2em;
+    justify-content: space-evenly;
     align-items: center;
+    list-style: none;
     background: #fff;
     width: 100%;
-    padding: 5px 0;
-    margin: 10px 0;
+    height: auto;
+    margin: 0;
+    padding: 5px 10px;
+
 }
 
-.nav-item {
-    margin: 0 1em;
-
+#logo-img {
+    width: 3em;
+    height: 3em;
 }
