@@ -4,7 +4,7 @@
 }
 
 .hero {
-    background-image: url('/assets/baby-164897_1920.jpg');
+    background-image: url('../assets/baby-164897_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
