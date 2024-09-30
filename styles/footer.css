@@ -89,7 +89,8 @@ form {
 @media (max-width: 768px) {
 
     .footer-container {
-        flex-direction: column !important;
+        flex-direction: column;
+        font-size: 0.8em;
     }
 
     .about,

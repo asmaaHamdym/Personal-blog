@@ -17,6 +17,60 @@ li>a {
 
 }
 
+.hamburger-menu {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 2em;
+        height: 2em;
+    }
+
+}
+
+.dropdown {
+    display: none;
+    position: fixed;
+    top: 15px;
+    right: 50px;
+    font-weight: bold;
+}
+
+.dropdown ul {
+    border-radius: 10px;
+    list-style-type: none;
+
+}
+
+.dropdown ul li {
+    border: 1px transparent;
+
+
+    a {
+        background: #fff;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 0.7em;
+        color: black;
+    }
+}
+
+.hamburger-menu:hover .dropdown,
+.dropdown:hover {
+
+    display: flex;
+
+}
+
+
+.menu-item:hover {
+    box-shadow: rgba(66, 104, 66, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(23, 64, 10, 0.35) 0px -2px 6px 0px inset;
+}
 
 .nav-container {
     /* position: fixed; */
