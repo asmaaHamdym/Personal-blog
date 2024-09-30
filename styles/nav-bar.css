@@ -23,7 +23,6 @@ li>a {
     top: 0;
     display: flex;
     gap: 3rem;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;

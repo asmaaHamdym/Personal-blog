@@ -7,7 +7,6 @@
     background-image: url('https://cdn.pixabay.com/photo/2018/04/01/17/00/mother-and-daughter-3281388_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
     height: 30rem;
     display: flex;
     flex-direction: column;
@@ -52,4 +51,17 @@ h1 {
     width: 2em;
     height: 2em;
     margin: 0.5em;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+
 }

@@ -8,17 +8,23 @@ a {
 }
 
 main {
-    margin: 0 15em;
+    margin: 0 auto;
     color: #97989F;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+    grid-gap: 2em;
 
     h1 {
         color: black;
         font-size: 3em;
+        line-height: 1.5;
+        font-style: bold;
     }
 
     h3 {
         color: black;
         font-size: 2.5rem;
+        text-decoration: underline;
     }
 
     img {
@@ -33,4 +39,26 @@ main {
         font-size: 1.5rem;
         line-height: 1.5;
     }
+
+    blockquote {
+        color: darkcyan;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    h1 {
+        font-size: 2em;
+    }
+
+    article {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+
 }
