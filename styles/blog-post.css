@@ -9,6 +9,7 @@ a {
 
 main {
     margin: 0 auto;
+    max-width: 80%;
     color: #97989F;
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(1, 1fr);
