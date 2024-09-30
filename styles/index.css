@@ -112,12 +112,5 @@ h3 {
         font-size: 1.2em;
     }
 
-    .nav-container {
-        display: none;
 
-    }
-
-    .hamburger-menu {
-        display: flex;
-    }
 }
